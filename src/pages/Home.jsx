@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cinema from '../assets/cinema.png'
-import { useNavigate, useParams } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
-import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Home({onSearch}) {
     const [searchTitle, setSearchTitle] = useState("")
